@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: ga_targetsmart
+    schema: GA_targetsmart
+    description: Sample of the GA TargetSmart voterfile
+    tables:
+      - name: voter_base
+        identifier: voter_base
+        columns:
+          - name: voterbase_id
+            data_tests:
+              - unique
+              - not_null

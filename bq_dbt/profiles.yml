@@ -1,0 +1,9 @@
+bq_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: prod-generation-data-176bffe6
+      dataset: <YOUR DATASET HERE>
+      threads: 1
