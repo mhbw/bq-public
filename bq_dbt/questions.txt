@@ -1,0 +1,9 @@
+1. How do I authenticate my google cloud account so I can access BigQuery?
+2. Can we take a look at my base dbt model?
+3. How do I use the results of my dbt model in python?
+
+
+
+
+
+
