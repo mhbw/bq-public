@@ -5,5 +5,5 @@ bq_dbt:
       type: bigquery
       method: oauth
       project: prod-generation-data-176bffe6
-      dataset: <YOUR DATASET HERE>
+      dataset: voterfile_ok
       threads: 1
