@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: voterfile_ok #how we want to title the source file
+    schema: voterfile_ok #how the dataset is titled in bigquery
+    description: GenData for Advanced Data Viz
+    tables:
+      - name: contacthistory_ok #how we want to title the table in our model
+        identifier: contacthistory_ok #how the table is titled in bigquery
+      - name: modelscores_ok
+        identifier: modelscores_ok
+      - name: voterfile_demographics_ok
+        identifier: voterfile_demographics_ok
+        # columns:
+        #   - name: voterbase_id
+        #     data_tests:
+        #       - unique
+        #       - not_null
+        #   - name: aug_primary_voted_date 
+        #     data_tests:
+        #       - not_null
