@@ -19,3 +19,9 @@ sources:
         #   - name: aug_primary_voted_date 
         #     data_tests:
         #       - not_null
+  - name: gcc_dbt
+    schema: gcc_dbt
+    descripion: dataset given to us by GenData
+    tables:
+      - name: ok_2020_precincts
+        indentifiers: ok_2020_precincts
