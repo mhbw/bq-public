@@ -1,0 +1,13 @@
+1. Who has been contacted? 
+    a. When were they attempted / contacted across time?
+2. How are contacts distributed among propensity scores?
+    a. How are contacts distributed among folks who voted in gen2020 and gen2022?
+    b. How are contacts distributed among folks who didn't vote in gen2020 and gen2022?
+3. What is the geographic distribution of our targets? -- using lat/long
+    a. What is the geographic distribution of our contacts?
+    b. What are the geographic contact gaps?
+4. What is the geographic distribution of people of color in OK?
+    a. What is the overlap between our geographic contact distribution and that of POC in OK?
+
+Census Oklahoma URL = 'https://api.census.gov/data/2022/acs/acs1/profile?get=group(DP05)&ucgid=pseudo(0400000US40$0500000)'
+Census API = 4c5fc1287074bfe53a4aa7aa5e3020884cb5b514

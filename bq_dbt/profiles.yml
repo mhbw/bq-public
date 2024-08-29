@@ -5,5 +5,5 @@ bq_dbt:
       type: bigquery
       method: oauth
       project: prod-generation-data-176bffe6
-      dataset: <YOUR DATASET HERE>
+      dataset: gcc_dbt
       threads: 1
